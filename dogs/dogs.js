@@ -1,5 +1,5 @@
-import { getDog } from "../fetch-utils.js";
-import { renderDogDetail } from "../render-utils.js";
+import { getDog } from '../fetch-utils.js';
+import { renderDogDetail } from '../render-utils.js';
 
 const params = new URLSearchParams(window.location.search);
 const dogDetail = document.getElementById('dog-detail');
